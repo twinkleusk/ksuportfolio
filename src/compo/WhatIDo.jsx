@@ -30,11 +30,11 @@ function WhatIDo() {
               <p>Pipeline Performance Improvement</p>
             </div>
             <div className="illus-stat">
-              <h4>150+</h4>
+              <h4>35+</h4>
               <p>ETL & Data Pipelines Built</p>
             </div>
             <div className="illus-stat">
-              <h4>8M+</h4>
+              <h4>2M+</h4>
               <p>Records Processed</p>
             </div>
           </div>
