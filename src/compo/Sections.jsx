@@ -4,6 +4,8 @@ import "./Sections.css";
 import drugpricingbehaviourImg from "../assets/projects/drugpricingbehaviour.png";
 import carcrashImg from "../assets/projects/carcrashdb.png";
 import ccfraudImg from "../assets/projects/ccfraud.jpg";
+import OlistpipelineImg from "../assets/projects/Olistpipeline.png";
+import Socialpulsee2epipelineImg from "../assets/projects/SocialPulseAnalyticsDashboard.jpg"
 
 function ProjectCard({ title, desc, tags, github, live, image, meta }) {
   return (
@@ -116,6 +118,26 @@ function Sections() {
           />
 
           <ProjectCard
+            title="OList ELT Pipeline"
+            meta="dbt + Snowflake + Airflow + Docker"
+            desc=" Built a production-grade ELT pipeline on the Brazilian Olist  e-commerce dataset with 1.6 million rows across 9 tables. Designed a star schema data model with staging and fact layers using dbt, loaded raw data into Snowflake cloud warehouse, and orchestrated the full pipeline with Apache Airflow running in Docker containers. Implemented dbt tests for data quality validation across all models."
+            tags={["dbt","Snowflake", "Apache Airflow","Docker","SQL","Python"]}
+            github="https://github.com/ushasaikiran/E-commerce"
+            live=""
+            image={OlistpipelineImg}
+          />
+
+          <ProjectCard
+            title="Social Pulse Analytics pipeline"
+            meta="dbt + Snowflake + Metabase + Docker"
+            desc="Built an end-to-end social media analytics pipeline ingesting 5000 rows of viral trend data using Python into Snowflake. Transformed data with dbt using advanced SQL (window functions, CTEs, LAG) to analyze platform performance, post rankings and monthly engagement trends. Orchestrated daily runs with Airflow, visualized insights in a 6-chart Metabase dashboard, and replicated all transformations in PySpark on Databricks."
+            tags={["dbt","Snowflake","Apache Airflow","Docker","SQL","Metabase"]}
+            github="https://github.com/ushasaikiran/social-pulse-pipeline/blob/main/screenshots/Social%20Pulse%20Analytics%20Dashboard.jpg"
+            live=""
+            image={Socialpulsee2epipelineImg}
+          />
+
+          <ProjectCard
             title="Big Data"
             meta="AWS + Streaming Analytics"
             desc="Built a large-scale data processing pipeline on AWS using Hadoop and Kafka to ingest, store, and analyze real-time car crash datasets. Enabled efficient streaming, pattern detection, and trend analysis, and transformed raw streaming data into curated analytical datasets for reporting."
@@ -183,7 +205,7 @@ function Sections() {
           <div className="contact-right">
             <div className="contact-row">
               <span className="label">Email</span>
-              <a href="mailto:uppala.usk@email.com">uppala.usk@email.com</a>
+              <a href="mailto:uppala.usk@email.com">uppala.usk@gmail.com</a>
             </div>
 
             <div className="contact-row">
