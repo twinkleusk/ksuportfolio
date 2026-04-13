@@ -5,7 +5,7 @@ import drugpricingbehaviourImg from "../assets/projects/drugpricingbehaviour.png
 import carcrashImg from "../assets/projects/carcrashdb.png";
 import ccfraudImg from "../assets/projects/ccfraud.jpg";
 import OlistpipelineImg from "../assets/projects/Olistpipeline.png";
-import Socialpulsee2epipelineImg from "../assets/projects/SocialPulseAnalyticsDashboard.jpg"
+import Socialpulsee2epipelineImg from "../assets/projects/SocialPulseAnalyticsDashboard.jpg";
 
 function ProjectCard({ title, desc, tags, github, live, image, meta }) {
   return (
@@ -205,7 +205,7 @@ function Sections() {
           <div className="contact-right">
             <div className="contact-row">
               <span className="label">Email</span>
-              <a href="mailto:uppala.usk@email.com">uppala.usk@gmail.com</a>
+              <a href="mailto:uppala.usk@gmail.com">uppala.usk@gmail.com</a>
             </div>
 
             <div className="contact-row">
